@@ -1,0 +1,31 @@
+/* Arabic layout overrides — applied only under /ar */
+
+/* Use Cairo for everything in Arabic: body, headings, UI */
+body {
+  font-family: var(--font-cairo), 'Cairo', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Override the serif font used in headings — Cairo works well for Arabic display text */
+.font-serif {
+  font-family: var(--font-cairo), 'Cairo', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* RTL-specific tweaks */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* Ensure proper Arabic line-height */
+[dir="rtl"] p,
+[dir="rtl"] li,
+[dir="rtl"] blockquote {
+  line-height: 1.9;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3 {
+  line-height: 1.4;
+}
