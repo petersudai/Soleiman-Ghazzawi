@@ -82,6 +82,11 @@ export const config = {
     ],
     image: '/soleiman-upscaled.jpeg',
     imageAlt: 'Soleiman Ghazzawi, Founder of GS Innovators',
+    companyLink: {
+      label: 'Explore GS Innovators',
+      sublabel: 'See the company behind the work',
+      href: 'https://gs-innovators.vercel.app/',
+    },
   },
 
   // ── SERVICES ─────────────────────────────────────────────────────────────
@@ -338,6 +343,7 @@ export const config = {
   footer: {
     tagline: 'Precision execution for high-value commercial and luxury projects across the UAE.',
     links: [
+      { label: 'GS Innovators ↗', href: 'https://gs-innovators.vercel.app/' },
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/soleiman-ghazzawi' },
       { label: 'WhatsApp', href: 'https://wa.me/971506890569' },
       { label: 'Privacy Policy', href: '/privacy' },

@@ -77,6 +77,11 @@ export const configAr = {
     ],
     image: '/soleiman-upscaled.jpeg',
     imageAlt: 'سليمان غزاوي، مؤسس شركة GS Innovators',
+    companyLink: {
+      label: 'استكشف GS Innovators',
+      sublabel: 'تعرّف على الشركة وراء العمل',
+      href: 'https://gs-innovators.vercel.app/',
+    },
   },
 
   services: {
@@ -318,6 +323,7 @@ export const configAr = {
   footer: {
     tagline: 'تنفيذ دقيق لمشاريع تجارية وفاخرة عالية القيمة في الإمارات.',
     links: [
+      { label: 'GS Innovators ↗', href: 'https://gs-innovators.vercel.app/' },
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/soleiman-ghazzawi' },
       { label: 'واتساب', href: 'https://wa.me/971506890569' },
       { label: 'سياسة الخصوصية', href: '/privacy' },
